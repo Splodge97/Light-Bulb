@@ -1,6 +1,5 @@
 <widget>
-    id          = "com.Splodge97.Light_Bulb"
-    versionCode = "1000"
+    id          = "lightbulb.splodge97.edu.mit.scratch"
     version     = "1.0.0"
 <name>Light Bulb
 </name>
