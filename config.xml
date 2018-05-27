@@ -1,10 +1,15 @@
-<widget>
-    id          = "lightbulb.splodge97.edu.mit.scratch"
-    version     = "1.0.0"
-<name>Light Bulb
-</name>
-<description>Click and light turns yellow
-</description>
-<author> email="sophie.rose.cz@gmail.com</author>
-<icon src="https://en.wikipedia.org/wiki/Incandescent_light_bulb#/media/File:Gluehlampe_01_KMJ.png" width=20 height=20/>
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "lightbulb.splodge97.edu.mit.scratch"
+        versionCode = "10" 
+        version     = "1.0.0" >
+    <name>Light Bulb</name>
+    <description>
+        Click and light turns yellow
+    </description>
+    <author href="http://scratch.mit.edu/users/splodge97" email="sophie.rose.cz@gmail.com">
+        splodge97
+    </author>
+     <icon src="https://en.wikipedia.org/wiki/Incandescent_light_bulb#/media/File:Gluehlampe_01_KMJ.png" width=20 height=20/>
 </widget>
