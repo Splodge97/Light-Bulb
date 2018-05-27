@@ -11,5 +11,5 @@
     <author href="http://scratch.mit.edu/users/splodge97" email="sophie.rose.cz@gmail.com">
         splodge97
     </author>
-<splash src="https://en.wikipedia.org/wiki/Incandescent_light_bulb#/media/File:Gluehlampe_01_KMJ.png">
+<splash src="https://en.wikipedia.org/wiki/Incandescent_light_bulb#/media/File:Gluehlampe_01_KMJ.png" platform="android" width="50" height="50"/>
 </widget>
