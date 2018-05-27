@@ -1,0 +1,26 @@
+<HTML>
+ <head>
+  <title> Light bulb </title>
+ </head>
+
+<body>
+ <canvas id=Stage width=720 height=1280 style="background-color: pink"> 
+ </canvas>
+//making a pink backgroung
+
+ <script>
+  var ctx = Stage.getContext("2d")
+ctx.fillStlye="black"
+ctx.fillRect(300,300,100,100)
+//making a black square
+
+function Got_Player_Input(MyEvent) {
+    ctx.fillStyle="yellow"
+    ctx.fillRect(300,300,100,100)
+   }
+ addEventListener("mousedown", Got_Player_Input)
+
+//making square yellow when touched
+</script>
+</body>
+</HTML> 
