@@ -6,12 +6,12 @@
         version     = "1.0.0" >
     <name>Light Bulb</name>
     <description>
-        Click and light turns yellow
+        Light bulb switch
     </description>
     <author href="http://scratch.mit.edu/users/splodge97" email="sophie.rose.cz@gmail.com">
         splodge97
     </author>
     <platform name="android">
-        <icon scr=icon.png>
+        <icon scr=Icon.png>
             </platform>
 </widget>
