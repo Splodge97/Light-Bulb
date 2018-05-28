@@ -11,5 +11,5 @@
     <author href="http://scratch.mit.edu/users/splodge97" email="sophie.rose.cz@gmail.com">
         splodge97
     </author>
-        <i scr=Light-Bulb/Icon.png></i>
+        <icon scr="Light-Bulb/Icon.png"/>
 </widget>
