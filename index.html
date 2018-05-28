@@ -1,26 +1,59 @@
 <HTML>
  <head>
   <title> Light bulb </title>
+  <style>
+       #textbox1 {
+            position: absolute;
+            left: 50px;
+            top: 50px;
+            padding: 0px 10px 0px 10px;
+            color:# #eeeeee;
+            font-family: helvetic
+            font-size: 12px;}
+            
+       #textbox2 {
+            position: absolute;
+            left: 200px;
+            top: 50px;
+            padding: 0px 10px 0px 10px;
+            color:# #eeeeee;
+            font-family: helvetic
+            font-size: 12px;}
+  </style>
  </head>
 
 <body>
- <canvas id=Stage width=720 height=1280 style="background-color: pink"> 
+ <div id=textbox1>
+ <p id="On"> On <p></div>
+  <div id=textbox2>
+ <p id="Off"> Off <p></div>
+ <canvas id=Stage width=300 height=500 style="background-color: pink"> 
  </canvas>
-//making a pink backgroung
-
- <script>
+ <script id="myScipt">
   var ctx = Stage.getContext("2d")
 ctx.fillStlye="black"
-ctx.fillRect(300,300,100,100)
+ctx.fillRect(100,200,100,100)
 //making a black square
+</script>
 
-function Got_Player_Input(MyEvent) {
+<script>
+document.getElementById("On").addEventListener("click", Turn_Yellow);
+function Turn_Yellow(MyEvent) {
     ctx.fillStyle="yellow"
-    ctx.fillRect(300,300,100,100)
+    ctx.fillRect(100,200,100,100)
    }
- addEventListener("mousedown", Got_Player_Input)
+//making square yellow when click me clicked
 
-//making square yellow when touched
+</script>
+
+<script>
+document.getElementById("Off").addEventListener("click", Turn_Black);
+function Turn_Black(MyEvent) {
+    ctx.fillStyle="black"
+    ctx.fillRect(100,200,100,100)
+   }
+//making square black when click me clicked
+
 </script>
 </body>
 </HTML> 
